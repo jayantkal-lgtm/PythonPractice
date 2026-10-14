@@ -1,4 +1,7 @@
-#Problem: Write a function to calculate and return the square of a number. 
+"""
+This function calculates and returns the square of a number.
+
+"""
 def squar(number):
     return number ** 2
 

@@ -19,7 +19,6 @@ methods available for dictonary:
 10 copy(): Returns a shallow copy of the dictonary. It creates a new dictonary with the same key-value pairs as the original dictonary.
 11. get(key, default): Returns the value associated with the specified key. If the key does not exist, it returns the default value (if provided) or None.
 
-
 """
 
 
@@ -39,11 +38,20 @@ student = {
 
 
 carData = {
-    "make": "Toyota",   
+    "maker": "Toyota",   
     "model": "Camry",
     "carYear": 2020,
+     "carColor": ["Red", "Blue", "Black"]
+}
+
+
     
-print(dic)
 print(student.items())
 print('Student Keys:', student.keys())
 print('Student Values:', student.values())
+
+
+print('Car Data:', carData)
+print('Car Keys:', carData.keys())
+print('Car Values:', carData.values())
+print('Car Items:', carData.items())
